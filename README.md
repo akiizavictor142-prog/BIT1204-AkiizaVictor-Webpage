@@ -26,7 +26,7 @@ You can view the live version here:
 ## How to view the Files
 1. Download or clone this repository to your computer.
 2. Find the file naned 'index.html'.
-3. Open 'index,html' in your web browser.
+3. Open 'index.html' in your web browser.
 
 ---
 
