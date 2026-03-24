@@ -68,3 +68,60 @@
       text-align: center;
       padding: 15px;
     }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    section {
+        padding: 20px;
+    }
+    
+    .images {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* Transitions */
+nav a {
+    transition: color 0.3s ease;
+}
+
+.skills span {
+    transition: background-color 0.3s ease;
+}
+
+.skills span:hover {
+    background-color: #52e3c2;
+}
+
+/* Better Typography */
+body {
+    line-height: 1.6;
+}
+
+h1, h2 {
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Links */
+a {
+    color: #64ffda;
+}
+
+a:hover {
+    color: #52e3c2;
+}
